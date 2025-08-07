@@ -1,10 +1,10 @@
 import "./App.css";
-
+import PopFi from "./components/popfi/pop";
 
 function App() {
   return (
     <div className="App">
-    <h1>hello</h1>
+      <PopFi />
     </div>
   );
 }
