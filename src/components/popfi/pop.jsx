@@ -34,7 +34,7 @@ export default function PopFi() {
       <div>
         {canPop
           ? "You can pop the balloon!"
-          : `Wait ${timeLeft} seconds to pop again.`}
+          : `Wait ${itemLeft} seconds to pop again.`}
       </div>
       <div className="content">
         <img

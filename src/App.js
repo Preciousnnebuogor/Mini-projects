@@ -1,10 +1,12 @@
 import "./App.css";
-import PopFi from "./components/popfi/pop";
+// import PopFi from "./components/popfi/pop";
+import Toggle from "./components/toggle.jsx/toggle";
 
 function App() {
   return (
     <div className="App">
-      <PopFi />
+      <Toggle />
+      {/* <PopFi/> */}
     </div>
   );
 }
