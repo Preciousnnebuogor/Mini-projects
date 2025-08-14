@@ -22,15 +22,11 @@ export default function LoanCalculator() {
      const Interest = parseFloat(interest)/100/12;
      const Months = parseFloat(months);
 
-     const payment =
-       (Amount * Interest) / (1 - Math.pow(1 + Interest, -Months));
+     const payment = (Amount * Interest) / (1 - Math.pow(1 + Interest, -Months));
 
   setResult(payment.toFixed(2))
   })
-
   
-
-
   return (
     <div className={`container`}>
       <div className={`content`}>

@@ -1,4 +1,5 @@
 import "./App.css";
+import AgeCalcuator from "./components/age/age";
 import LoanCalculator from "./components/loans/loans";
 // import PopFi from "./components/popfi/pop";
 // import Toggle from "./components/toggle.jsx/toggle";
@@ -10,7 +11,8 @@ function App() {
       {/* <Toggle /> */}
       {/* <PopFi/> */}
       {/* <WordCount/> */}
-      <LoanCalculator/>
+      {/* <LoanCalculator/> */}
+      <AgeCalcuator/>
     </div>
   );
 }
